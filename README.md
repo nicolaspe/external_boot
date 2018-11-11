@@ -30,7 +30,7 @@ In order to get your SSD ready, we need to erase its content and create the a bo
 **The following steps have to be performed on a Windows machine (or Virtual Machine).**
 
 1. On the Start menu, look for the Command Prompt (or type `cmd.exe`), right click, and select "Run as Administrator"
-2. Open the [DiskPart tool](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc766465(v=ws.10) by typing `diskpart` and perform the following commands:
+2. Open the [DiskPart tool](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc766465(v=ws.10)) by typing `diskpart` and perform the following commands:
 	- `list disk`: to list and identify the number of the target disk
 	- `select disk #`: to select it
 	- `clean`: to erase its content
