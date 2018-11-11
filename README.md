@@ -45,7 +45,7 @@ In order to get your SSD ready, we need to erase its content and create the a bo
 	- `format fs=ntfs quick`: to format this time with the [NTFS](https://en.wikipedia.org/wiki/NTFS) file system
 	- `assign letter=w` to assign a letter to the partition (again, whichever letter you want)
 
-This is only the first half we have to perform on a Windows machine. After the next step, we'll have to come back one more time to finalize and activate the boot partition.
+This is only the first half we have to perform on a Windows machine. After the next step, we'll have to come back here one more time to finalize and activate the boot partition.
 
 
 
@@ -54,7 +54,7 @@ There are a number of limitations when it comes to installing Windows, using Boo
 
 `diskutil list`
 
-`diskutil unmount dev/disk#`
+`diskutil unmountDisk /dev/disk#`
 
 `VBoxManage internalcommands createrawvmdk -filename "bootcamp.vmdk" -rawdisk /dev/disk#`
 
